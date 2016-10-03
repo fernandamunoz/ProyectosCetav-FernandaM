@@ -1,0 +1,69 @@
+/*---------------------------
+		General
+----------------------------*/
+.wrapper {
+	width: 977px;
+	height: 828px;
+	margin: 0 auto;
+}
+
+* body {
+	font-family: helvetica;
+}
+
+/*---------------------------
+		Header
+----------------------------*/
+.menu{
+    display: inline;
+    position: relative;
+    top: -47px;
+    left: 380px;
+}
+
+.menu a {
+	text-decoration: none;
+	color:white;
+}
+
+.menu li{
+  display: inline;
+}
+.menu li:first-child{
+  margin-left:5px;
+  margin: 8px;
+}
+/*---------------------------
+		Main Content
+----------------------------*/
+#picMainC {
+	margin-top: -54px;
+}
+.objective {
+	background-color: white;
+    position: relative;
+    top: -210px;
+    left: 586px;
+    width: 324px;
+}
+#textMC {
+	color: #00BFFF;
+    margin-bottom: 21px;
+    margin-left: 11px;
+}
+.text {
+	margin-left: 15px;
+    margin-top: -23px;
+}
+/*---------------------------
+		Footer
+----------------------------*/
+.footer {
+	width: 985px;
+    margin-top: -151px;
+}
+.colums {
+	width: 321px;
+	float:left;
+	padding: 3px;
+}
