@@ -67,3 +67,8 @@
 	float:left;
 	padding: 3px;
 }
+
+a {
+	text-decoration: none;
+	color:blue;
+}
