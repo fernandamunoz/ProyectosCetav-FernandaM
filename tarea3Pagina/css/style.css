@@ -2,10 +2,8 @@
              General
 --------------------------------------*/
 .wrapper {
-    
     width: 800px;
     margin: 0 auto;
-
 }
 
 h4 {
@@ -15,25 +13,12 @@ h4 {
 li {
     margin-left: 82px;
 }
-/*-------------------------------------
-          Limpiador Universal
---------------------------------------*/
-
-.cf:after {
-    content: " "; 
-    display: table; 
-}
-
-.cf:after {
-    clear: both;
-}
-
-.cf {
-    *zoom: 1;
-}
+/*---------------------------------
+           Encabezado
+----------------------------------*/
 
 .title {
-    border-bottom: 1px solid #666666;
+    border-bottom: 1px solid #666;
     line-height: 50px;
 }
 
@@ -47,7 +32,7 @@ li {
 }
 
 .colorD {
-    color: #666666;
+    color: #666;
 }
 /*---------------------------------
             Contenido
@@ -58,7 +43,7 @@ li {
     margin-left: 73px;
 } 
 .line {
-    border-right: 2px solid #999999;
+    border-right: 2px solid #999;
     float: left;
     width: 85px;
     height: 120px;
@@ -66,7 +51,7 @@ li {
 }
 
  .title2 {
-  display: inline-block;
+    display: inline-block;
     /* float: right; */
     /* margin-right: 140px; */
     margin-left: -25px;
@@ -78,8 +63,10 @@ li {
 }
 
 span {
-    color: #666666;
+    color: #666;
     font-family: serif, arial;
+    font-size: 15px;
+    margin-left: 90px;
 }
 
 .title3 {
