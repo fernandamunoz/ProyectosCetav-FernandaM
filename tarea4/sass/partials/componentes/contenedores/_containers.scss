@@ -1,0 +1,148 @@
+//General
+.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+//Header
+
+.header {
+	background-color: $header-bg;
+	border-top: 19px solid $dark-brown;
+	height: 418px;
+	margin-top: -17px;
+}
+
+.textHeader {
+	float: left;
+	margin: 82px 0 0 -25px;
+	width: 430px;
+}
+
+h2 {
+	color: $primary-color;
+}
+
+a {
+	text-decoration: none;
+	color: $primary-color;
+}
+
+p {
+	color: $primary-color;
+}
+
+//Main Content
+
+.contentBoxes {
+	height: 403px;
+}
+
+.box {
+	color: $primary-color;
+  	float: left;
+  	margin: 109px -81px 0 39px;
+  	text-align: center;
+  	width: 425px;
+	
+  	p{
+  	  margin-left: 80px;
+  	  width: 297px;
+    } 
+}
+
+span  {
+	a {
+		color: $light-brown;
+		text-decoration: none;
+ 	}
+}
+	
+.section {
+	margin-bottom: 20px;
+}
+
+.sectionInfo {
+	height: 410px;
+}
+
+.firstSection {
+	background-color: $light-brown;
+	float: left;
+	height: 411px;
+	width: 640px;	
+}
+
+.secondSection {
+	background-color: $dark-brown;
+	float: right;
+	height: 411px;
+	width: 640px;
+	
+	 h3 {
+		color: $white;
+		margin: 44px 77px 0 44px;
+ 	}
+
+	p {
+		color:  $white;
+		margin: 44px 77px 0 44px;
+  	}
+
+   button{
+		background-color:  $white;
+		border-radius: 5px;
+		color: $dark-brown;
+		height: 35px;
+		margin: 44px 77px 0 44px;
+		width: 90px
+  	}
+}
+
+
+.content {
+	margin: 147px 170px 35px 204px;
+	text-align: center;
+}
+
+.firstLine {
+	height: 274px;
+	margin: 0 80px 0 260px;
+}
+
+.spacing {
+	margin-top: 200px;
+}
+
+//Footer	
+
+.footer {
+	margin-top: 148px;
+}
+
+.footerInfo {
+	background-color: $light-brown;
+}
+
+h4 {
+ 	color:  $white;
+ }
+
+.columns {
+	height: 226px;
+	margin: 20px 0 0 150px;
+ 	
+	p {
+		color: $white;
+		margin-right: 80px;
+	}
+}
+
+ .contentColumns {
+ 	float: left;
+ 	width: 246px;
+}
+
+.autor {
+	margin-left: 121px;
+}
