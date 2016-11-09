@@ -1,0 +1,162 @@
+//General
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+//Header
+
+.header {
+	background-color: $header-bg;
+	border-top: 19px solid $dark-brown;
+	margin-top: -17px;
+	width: 100%;
+}
+
+.textHeader {
+	clear: both;
+	float: left;
+	margin: 56px 0 0 166px;
+	width: 21.3%;
+}
+
+h2 {
+	color: $primary-color;
+}
+
+a {
+	text-decoration: none;
+	color: $primary-color;
+}
+
+p {
+	color: $primary-color;
+}
+
+//Main Content
+
+.mainContent {
+	width: 100%;
+}
+
+.contentBoxes {
+	height: 403px;
+}
+
+.box {
+	color: $primary-color;
+  	float: left;
+  	margin: 109px -28px 0 48px;
+  	text-align: center;
+  	width: 30%;
+
+  	p{
+  	  margin-left: 80px;
+  	  /*width: 297px;*/
+    }
+}
+
+span  {
+	a {
+		color: $light-brown;
+		text-decoration: none;
+ 	}
+}
+
+.section {
+	margin-bottom: 20px;
+}
+
+.sectionInfo {
+	height: 410px;
+	width: 100%;
+}
+
+.firstSection {
+	background-color: $light-brown;
+	float: left;
+	height: 411px;
+	width: 50%;
+
+	img {
+		float: left;
+   		margin-left: 148px;
+	}
+}
+
+
+.secondSection {
+	background-color: $dark-brown;
+	float: right;
+	height: 411px;
+	width: 50%;
+
+	 h3 {
+		color: $white;
+		margin: 44px 77px 0 44px;
+ 	}
+
+	p {
+		color:  $white;
+		margin: 44px 77px 0 44px;
+  	}
+
+   button{
+		background-color:  $white;
+		border-radius: 5px;
+		color: $dark-brown;
+		height: 35px;
+		margin: 44px 77px 0 44px;
+		width: 10%;
+  	}
+}
+
+
+.content {
+	margin: 102px 162px 0 211px;
+	text-align: center;
+}
+
+.firstLine {
+	clear: both;
+	height: 274px;
+	margin-left: 960px;
+	width: 90%;
+}
+
+.spacing {
+	margin-top: 200px;
+}
+
+//Footer
+
+.footer {
+	margin-top: 148px;
+}
+
+.footerInfo {
+	background-color: $light-brown;
+}
+
+h4 {
+ 	color:  $white;
+ }
+
+.columns {
+	height: 226px;
+	margin: 20px 0 0 150px;
+
+	p {
+		color: $white;
+		margin-right: 80px;
+	}
+}
+
+.contentColumns {
+ 	float: left;
+ 	width: 23%;
+}
+
+.autor {
+	margin-left: 121px;
+}

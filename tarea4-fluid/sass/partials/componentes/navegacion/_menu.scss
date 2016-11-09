@@ -1,0 +1,41 @@
+nav {
+ 	background: #f4f3f3;
+ 	border-bottom: 1px solid #d6d6d6;
+ 	border-radius: 80px;
+ 	height: 56px;
+ 	margin: 15px auto;
+ 	margin-right: 80px;
+ 	overflow: hidden;
+ 	width: 36%;
+}
+
+.menu {  
+	display: table;  
+	float: left;
+	table-layout: fixed; 
+
+	li{
+		border-right: 1px solid #e6e6e6;
+		display: inline;
+		letter-spacing: 2px;
+		margin: 0 12px 0 10px;
+		overflow: hidden;
+		padding: 2px;
+	
+		&:first-child {
+			margin: 0 auto;
+			border-left: none;
+  		}
+
+   		&:last-child {
+			border-right: none;
+  		}
+	}
+
+ 	a{
+	color: #664735;
+	text-decoration: none;
+	padding: 2px;
+	}
+	
+}
