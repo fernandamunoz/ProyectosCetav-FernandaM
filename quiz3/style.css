@@ -1,0 +1,30 @@
+
+.menu {
+	list-style: none;
+}
+
+.menu > ul li {
+	width: 1400px;
+}
+
+.nivel1 {
+	display: inline-block;
+}
+
+.menu li a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.menu li {
+	display: inline;
+}
+.menu li ul {
+	overflow: hidden;
+
+}
+
+
+
+
